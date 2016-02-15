@@ -27,11 +27,34 @@
 	<div class="row small-up-1 wrapper">
 		<div class="small-centered column spacer"></div>
 
-		<a class="buttonlink column small-centered" target="_blank" href="https://docs.google.com/forms/d/13XG5KT2mtZC9in85ouAwjh42rxAEFTAl2MKkALvEiv0/viewform">
-			<div class="mybutton">
-				<h2> I'm Interested</h2>
+			<!-- YES BUTTON -->
+			<div class="mybutton column small-centered ">
+				<a  data-open="yesModal" class=""> 
+					<h2 class="button-text">I'm Interested</h2>
+				</a>
 			</div>
-		</a>
+		
+			<!-- YES MODAL-->
+			<div class="reveal" id="yesModal" data-reveal data-overlay="false" data-close-on-click="false">
+				<h2> Thanks for your interest!</h2>
+				<h4> We'll be shipping soon, let's keep in touch</h4>
+				</br>
+				<form>
+					<div class="large-6 columns">
+				      <div class="row collapse postfix-round">
+				        <div class="small-9 columns">
+				          <input type="text" placeholder="What's your email?">
+				        </div>
+				        <div class="small-3 columns">
+				          <a href="#" class="button postfix">Go</a>
+				        </div>
+				      </div>
+				    </div>
+				</form>
+		        <button class="close-button" data-close aria-label="Close modal" type="button">
+			        <span aria-hidden="true">&times;</span>
+		        </button>
+			</div>
 
 		</br>
 
