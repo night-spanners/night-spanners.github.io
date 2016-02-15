@@ -40,7 +40,7 @@
 				<h4> We'll be shipping soon, let's keep in touch</h4>
 				</br>
 				<form>
-					<div class="large-6 columns">
+					<div class="large-12 columns">
 				      <div class="row collapse postfix-round">
 				        <div class="small-9 columns">
 				          <input type="text" placeholder="What's your email?">
@@ -56,13 +56,35 @@
 		        </button>
 			</div>
 
-		</br>
+			</br>
 
-		<a class="buttonlink column small-centered" target="_blank" href="https://docs.google.com/forms/d/1ga7BXII3suqISwdKU1Q9Ih0LpUFIKTmMsiEyGspBsHE/viewform">
-			<div class="mybutton">
-				<h2> That's Lame!</h2>
+			<!-- NO BUTTON -->
+			<div class="mybutton column small-centered ">
+				<a  data-open="noModal"> 
+					<h2 class="button-text">That's lame</h2>
+				</a>
 			</div>
-		</a>
+
+			<!-- NO MODAL-->
+			<div class="reveal" id="noModal" data-reveal data-overlay="false" data-close-on-click="false">
+				<h2> Penny for your thoughts?</h2>
+				</br>
+				<form>
+					<div class="large-12 columns">
+				      <div class="row collapse postfix-round">
+				        <div class="small-9 columns">
+				          <input type="text" placeholder="What can we do better?">
+				        </div>
+				        <div class="small-3 columns">
+				          <a href="#" class="button postfix">Go</a>
+				        </div>
+				      </div>
+				    </div>
+				</form>
+		        <button class="close-button" data-close aria-label="Close modal" type="button">
+			        <span aria-hidden="true">&times;</span>
+		        </button>
+			</div>
 
 	</div>
 
