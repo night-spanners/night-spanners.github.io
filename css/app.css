@@ -83,11 +83,15 @@
 }
 
 #yesModal{
-	padding: 50px;
+	padding: 5%;
 	border-radius:10px;
 }
 
 #noModal{
-	padding: 50px;
+	padding: 5%;
 	border-radius:10px;
+}
+
+.survey{
+	vertical-align: center;
 }
