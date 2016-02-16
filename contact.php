@@ -12,9 +12,10 @@ $body_message .= 'E-mail: '.$email."\n";
 
 // $headers = 'From: '.$field_email."\r\n";
 // $headers .= 'Reply-To: '.$field_email."\r\n";
+$headers = 'woohoo!'
 
-// $mail_status = mail($mail_to, $subject, $body_message, $headers);
-$mail_status = mail($mail_to, $subject, $body_message)
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
+// $mail_status = mail($mail_to, $subject, $body_message)
 
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
